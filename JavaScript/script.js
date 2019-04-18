@@ -17,11 +17,11 @@
 "use strict";
 
 // Gloabl variables
+const timeOutVal = 5000;
+const priceOrganic = 2;
+const priceCaramel = 2.5;
+const priceHazelnut = 3.1;
 let totalCoin = 0;
-let timeOutVal = 5000;
-let priceOrganic = 2;
-let priceCaramel = 2.5;
-let priceHazelnut = 3.1;
 let displayScreen = document.getElementById("displayScreen");
 let coinSlot = document.getElementById('coinSlot');
 let selOrganic = document.getElementById('selOrganic');
