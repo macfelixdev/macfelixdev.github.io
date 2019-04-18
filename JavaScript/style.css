@@ -25,6 +25,7 @@ li {
   margin-top: 10px;
 }
 
+/* Formating common to all wrapper */
 .wrapper {
   border-width: 1px 1px 1px 1px;
   padding: 10px 10px 10px 10px;
@@ -35,6 +36,7 @@ li {
   margin-bottom: 15px;
 }
 
+/* Wrapper with border */
 .wrapper-format {
   background-color: #734d26;
   border-radius: 10px;
@@ -52,16 +54,16 @@ li {
   margin: 5px 10px 5px 10px;
 }
 
+/* Format for display screen wrapper */
 .displayScreen {
   margin-top: 20px;
   height: auto;
-  /* background-color: #00cc99; */
   background-color: #00b386;
-  /* color: #00664d; */
   color: #ffffff;
   font-size: 1.2em;
 }
 
+/* Format for heading wrapper */
 .heading {
   margin-bottom: 20px;
 }
