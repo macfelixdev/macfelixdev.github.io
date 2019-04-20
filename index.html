@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Vegan Chocolate Vendo</title>
-  <link rel="stylesheet" type="text/css" href="JavaScript/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Merienda+One|Quicksand" rel="stylesheet">
-</head>
+  <head>
+    <title>Vegan Chocolate Vendo</title>
+    <link rel="stylesheet" type="text/css" href="JavaScript/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merienda+One|Quicksand" rel="stylesheet">
+  </head>
   <body>
-    <header>
+    <header class="wrapper heading">
       <div class="title">
         Vegan Chocolate
       </div>
@@ -14,12 +14,17 @@
         Vending Machine
       </div>
     </header>
-    <div onclick="location.href='/JavaScript/index.html';" class="wrapper wrapper-format" style="font-size: 1em; background-color: #006666; margin-top: 40px; width:200px;">
-      <center> JavaScript </center>
+
+    <div class="wrapper">
+      <div onclick="location.href='/JavaScript/index.html'" class="button" disabled>
+        JavaScript
+      </div>
+      <br>
+      <div onclick="location.href='https://macfelixdev.github.io/veganchocovendo/'" class="button">
+        ReactJS
+      </div>
     </div>
-    <div onclick="location.href='https://macfelixdev.github.io/veganchocovendo/';" class="wrapper wrapper-format" style="font-size: 1em; background-color: #006666; width:200px;">
-     <center> ReactJS </center>
-    </div>
+
       <div class="language" style="font-size: 1em; position:fixed; bottom: 20px; right: 20px;">
         by: Edgar Francis Felix
       </div>

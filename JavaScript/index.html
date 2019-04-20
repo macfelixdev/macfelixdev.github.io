@@ -43,14 +43,14 @@
 
   <!-- Wrapper for Menu item list.  -->
   <div class="wrapper wrapper-format">
-    <div id="snack-header">
+    <div class="dispBlock">
       Hey there! The following snacks are available for you to choose from:
     </div>
 
     <ul>
       <li>
         <div class="dispInLine">
-          <button type="button" id="selOrganic" value="Organic Raw">Select</button>
+          <button class="button" type="button" id="selOrganic" value="Organic Raw">Select</button>
         </div>
         <div class="dispInLine">
           Organic Raw ($2.00)
@@ -58,7 +58,7 @@
       </li>
       <li>
         <div class="dispInLine">
-          <button type="button" id="selCaramel" value="Caramel">Select</button>
+          <button class="button" type="button" id="selCaramel" value="Caramel">Select</button>
         </div>
         <div class="snack-li-name dispInLine">
           Caramel ($2.50)
@@ -66,7 +66,7 @@
       </li>
       <li>
         <div class="dispInLine">
-          <button type="button" id="selHazelnut" value="Hazelnut">Select</button>
+          <button class="button" type="button" id="selHazelnut" value="Hazelnut">Select</button>
         </div>
         <div class="snack-li-name dispInLine">
           Hazelnut ($3.10)
@@ -77,7 +77,7 @@
 
   <!-- Wrapper for Coin slot and coin meter -->
   <div class="wrapper wrapper-format">
-    <div class="coin-valid">
+    <div class="coin-valid dispBlock">
       Please insert 10c, 20c, 50c, $1 or $2 coin only.
     </div>
     <div class="coin-meter dispInLine" id="coinMeter">
@@ -85,7 +85,7 @@
     </div>
     <div class="coin-slot dispInLine">
       <input type="text" id="coinSlot" placeholder="Insert Coin">
-      <button type="button" id="dropCoin">Drop</button>
+      <button class="button" type="button" id="dropCoin">Drop</button>
     </div>
   </div>
 
@@ -95,7 +95,7 @@
       Press 'cancel' if you need to leave and I'll return your unused coins.
     </div>
     <div class="cancel-button dispInLine">
-      <button type="button" id="cancelButton">Cancel</button>
+      <button class="button" type="button" id="cancelButton">Cancel</button>
     </div>
   </div>
 
