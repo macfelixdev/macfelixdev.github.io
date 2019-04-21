@@ -122,11 +122,9 @@ text-align: center;
   border-radius: 5px;
   background-color: #009999;
   padding: 5px 5px 5px 5px;
-  color: #ffffff;
-  max-width: 250px;
   min-width: 60px;
-  margin: auto;
-  font-size: .85em;
+  color: #ffffff;
+  font-size: 14px;
   text-align: center;
   -webkit-transition-duration: 0.28s; /* Safari */
   transition-duration: 0.28s;
@@ -140,18 +138,22 @@ text-align: center;
 .button:disabled {
   background-color: #b3b3b3;
   color: #808080;
-  font-size: .8em;
+}
+
+/* Used so that button won't max out width if it's parents have specific width. */
+.button-div-splash{
+  width: 250px;
+  margin: auto;
 }
 
 #coinSlot {
   height: 28px;
-  /* background-color: #47d1d1; */
-  /* color: #ffffff; */
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   border: none;
   padding: 0px 10px 0px 10px;
   margin-right: -5px;
+  font-size: 14px;
 }
 
 #dropCoin {
