@@ -68,12 +68,12 @@ li {
 }
 
 .title {
-font-family: 'Merienda One', cursive;
-font-size: 3em;
-color: white;
-margin: auto;
-width: 650px;
-text-align: center;
+  font-family: 'Merienda One', cursive;
+  font-size: 3em;
+  color: white;
+  margin: auto;
+  width: 650px;
+  text-align: center;
 }
 
 .subtitle {
